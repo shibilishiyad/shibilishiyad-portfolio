@@ -128,7 +128,7 @@ nav ul li a:hover::after {
     content: '';
     width: 0;
     height: 3px;
-    background: white;
+    background: black;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -320,30 +320,22 @@ nav ul li a:hover::after {
 
 .social-icons {
     margin-top: 25px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
 .social-icons a {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 50px;
+    margin-right: 15px;
     color: white;
     display: inline-block;
     transition: transform 0.5s;
-    width: 5%;
-    /* This ensures 4 icons fit in one row, with space in between */
-    text-align: center;
-
 }
 
 .social-icons a:hover {
+
     color: black;
-    /* Hover color */
     transform: translateY(-5px);
 }
-
-
 
 .btn.btn2 {
     display: inline-block;
@@ -352,7 +344,7 @@ nav ul li a:hover::after {
 
 .contact-right form {
     width: 100%;
-
+    
 }
 
 form input,

@@ -55,7 +55,7 @@ nav ul li a::after {
     content: '';
     width: 0;
     height: 3px;
-    background: white;
+    background: #ff004f;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -77,7 +77,7 @@ nav ul li a:hover::after {
 }
 
 .header-text h1 span {
-    color: white;
+    color: #ff004f;
 }
 
 /* -----------about--------------- */
@@ -147,7 +147,7 @@ nav ul li a:hover::after {
 .tab-contents ul li span {
     color: black;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .tab-contents {
@@ -199,7 +199,7 @@ nav ul li a:hover::after {
 }
 
 .services-list div:hover {
-    background: black;
+    background: #ff004f;
     transform: translateY(-10px);
 }
 
@@ -231,7 +231,7 @@ nav ul li a:hover::after {
 .layer {
     width: 100%;
     height: 0;
-    background: #0f4c81;
+    background: black;
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -255,12 +255,12 @@ nav ul li a:hover::after {
 .layer a {
     margin-top: 180px;
     margin-right: 20px;
-    color: white;
+    color: #ff004f;
     text-decoration: none;
     font-weight: bold;
     font-size: 14px;
     line-height: 40px;
-    background: black;
+    background: rgb(0, 0, 0);
     width: 80px;
     height: 40px;
     border-radius: 10%;
@@ -287,7 +287,7 @@ nav ul li a:hover::after {
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid black;
+    border: 1px solid #ff004f;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -296,7 +296,7 @@ nav ul li a:hover::after {
 }
 
 .btn:hover {
-    background: black;
+    background: #ff004f;
 }
 
 /* ---------contact-------- */
@@ -313,46 +313,37 @@ nav ul li a:hover::after {
 }
 
 .contact-left p i {
-    color: black;
+    color: #ff004f;
     margin-right: 15px;
     font-size: 25px;
 }
 
 .social-icons {
     margin-top: 25px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
 .social-icons a {
     text-decoration: none;
     font-size: 30px;
+    margin-right: 15px;
     color: white;
     display: inline-block;
     transition: transform 0.5s;
-    width: 5%;
-    /* This ensures 4 icons fit in one row, with space in between */
-    text-align: center;
-
 }
 
 .social-icons a:hover {
-    color: black;
-    /* Hover color */
+
+    color: #ff004f;
     transform: translateY(-5px);
 }
 
-
-
 .btn.btn2 {
     display: inline-block;
-    background: black;
+    background: #ff004f;
 }
 
 .contact-right form {
     width: 100%;
-
 }
 
 form input,
@@ -360,10 +351,10 @@ form textarea {
     width: 100%;
     border: 0;
     outline: none;
-    background: black;
+    background: #262626;
     padding: 15px;
     margin: 15px 0;
-    color: white;
+    color: #fff;
     font-size: 18px;
     border-radius: 6px;
 }
@@ -379,7 +370,7 @@ form .btn2 {
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: black;
+    background: #262626;
     font-weight: 300;
     margin-top: 20px;
 }
