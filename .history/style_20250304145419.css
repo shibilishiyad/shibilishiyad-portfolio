@@ -69,17 +69,16 @@ nav ul li a:hover::after {
 .header-text {
     margin-top: 20%;
     font-size: 30px;
-    color: #0f4c81;
 }
 
 .header-text h1 {
     font-size: 60px;
     margin-top: 20px;
-    color: #0f4c81;
+    color: red;
 }
 
 .header-text h1 span {
-    color: #f8f8f8;
+    color: white;
 }
 
 /* -----------about--------------- */

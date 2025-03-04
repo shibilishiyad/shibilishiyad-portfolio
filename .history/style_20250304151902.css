@@ -271,10 +271,10 @@ nav ul li a:hover::after {
     /* Ensures the margin applies correctly */
 }
 
-.layer a:first-of-type {
+/* .layer a:first-of-type {
     margin-bottom: -30px;
     /* Adjust this value as needed */
-}
+*/
 
 
 .work:hover img {
